@@ -47,10 +47,10 @@ Example:
 
 ```
 composer req --dev typo3/tailor
-.Build/bin/tailor set-version 0.0.1
+vendor/bin/tailor set-version 0.1.0
 composer rem --dev typo3/tailor
-git commit -am "[RELEASE] 0.0.1 Initial commit"
-git tag 0.0.1
+git commit -am "[RELEASE] 0.1.0 Initial release"
+git tag 0.1.0
 git push
 git push --tags
 ```

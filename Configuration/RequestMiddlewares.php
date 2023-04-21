@@ -1,7 +1,7 @@
 <?php
 return [
     'frontend' => [
-        'typo3/json-response/frontend-user-authentication' => [
+        'lolli/peak-memory/peak-memory-header' => [
             'target' => \Lolli\PeakMemory\Middleware\PeakMemoryHeader::class,
             'before' => [
                 'typo3/cms-frontend/timetracker',
@@ -9,7 +9,7 @@ return [
         ],
     ],
     'backend' => [
-        'typo3/json-response/frontend-user-authentication' => [
+        'lolli/peak-memory/peak-memory-header' => [
             'target' => \Lolli\PeakMemory\Middleware\PeakMemoryHeader::class,
             'before' => [
                 'typo3/cms-core/verify-host-header',

@@ -3,7 +3,7 @@ TYPO3 peak memory
 
 This extension adds a HTTP middleware to the TYPO3 frontend and
 backend stack that sets the HTTP header `X-TYPO3-PHP-peak-memory`
-with the of PHP `memory_get_peak_usage()` in bytes.
+with the result of PHP `memory_get_peak_usage()` in bytes.
 
 This extension is an easy way to get an idea which requests may
 be especially memory hungry, and if changes to the codebase

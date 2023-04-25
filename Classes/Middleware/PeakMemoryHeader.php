@@ -1,6 +1,6 @@
 <?php
 
-namespace Lolli\PeakMemory\Middleware;
+declare(strict_types=1);
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -14,6 +14,8 @@ namespace Lolli\PeakMemory\Middleware;
  *
  * The TYPO3 project - inspiring people to share!
  */
+
+namespace Lolli\PeakMemory\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

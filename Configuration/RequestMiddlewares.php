@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 return [
     'frontend' => [
         'lolli/peak-memory/peak-memory-header' => [

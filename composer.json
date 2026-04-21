@@ -1,7 +1,7 @@
 {
   "name": "lolli/peak-memory",
   "type": "typo3-cms-extension",
-  "description": "TYPO3 middleware adding memory_get_peak_usage() as HTTP header",
+  "description": "TYPO3 HTTP memory usage - TYPO3 middleware adding memory_get_peak_usage() as HTTP header",
   "homepage": "https://github.com/lolli42/peak_memory",
   "authors": [
     {
@@ -13,8 +13,8 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "php": "^7.4 || ^8.0",
-    "typo3/cms-core": "^11.5 || ^12.0 || ^13.0"
+    "php": "^8.2",
+    "typo3/cms-core": "^13.0 || ^14.0"
   },
   "config": {
     "sort-packages": true,
@@ -30,7 +30,14 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "peak_memory"
+      "extension-key": "peak_memory",
+      "version": "0.1.3",
+      "Package": {
+        "providesPackages": {}
+      }
     }
+  },
+  "require-dev": {
+    "typo3/tailor": "*"
   }
 }

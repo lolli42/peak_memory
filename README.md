@@ -21,8 +21,7 @@ configured to `true`.
 
 ## Composer
 
-You probably want to install this as `--dev` dependency. The extension currently
-supports TYPO3 v11 and TYPO3 v12:
+You probably want to install this as `--dev` dependency:
 
 ```
 $ composer require --dev lolli/peak-memory
